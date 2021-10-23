@@ -13,6 +13,7 @@
 		E68BE7092724752200D9016E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68BE7072724752200D9016E /* Main.storyboard */; };
 		E68BE70B2724752500D9016E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68BE70A2724752500D9016E /* Assets.xcassets */; };
 		E68BE70E2724752500D9016E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68BE70C2724752500D9016E /* LaunchScreen.storyboard */; };
+		E68BE7162724820400D9016E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BE7152724820400D9016E /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E68BE70A2724752500D9016E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E68BE70D2724752500D9016E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E68BE70F2724752500D9016E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68BE7152724820400D9016E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E68BE70A2724752500D9016E /* Assets.xcassets */,
 				E68BE70C2724752500D9016E /* LaunchScreen.storyboard */,
 				E68BE70F2724752500D9016E /* Info.plist */,
+				E68BE7152724820400D9016E /* Item.swift */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68BE7162724820400D9016E /* Item.swift in Sources */,
 				E68BE7062724752200D9016E /* ViewController.swift in Sources */,
 				E68BE7022724752200D9016E /* AppDelegate.swift in Sources */,
 				E68BE7042724752200D9016E /* SceneDelegate.swift in Sources */,
