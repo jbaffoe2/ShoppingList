@@ -11,9 +11,9 @@ class Item
 {
     var name:String
     
-    init(name:String)
+    init(theName:String)
     {
-        self.name = name
+        self.name = theName
     }
     
 }
